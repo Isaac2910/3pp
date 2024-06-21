@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3pp</title>
+     <link rel="shortcut icon" href="/assets/img/logo.svg" type="image/x-icon">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="w-full h-75px flex justify-center items-center">
+        <nav class=" w-full border-b flex justify-around items-center"> 
+            <div class="flex justify-center  items-center gap-14">
+                <img src="/assets/img/logo.svg" alt="logo" class="w-100; h-auto">
+                <h3 class="font-bold">Primepromts</h3>
+            </div>
+            <div class="flex gap-10 hidden md:flex">
+                <button class="shadow-md rounded-md ">connexion</button>
+                <button class="bg-current rounded-md "><p class="text-white">Essayer primeprompts</p></button>
+            </div>
+            <div class="md:hidden"> <!--v mobil-->
+                <img src="/assets/img/menu.svg" alt="" class="w-18px h-auto">
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="flex justify-center py-10 md:flex"> <!--il contient 2 block dans contener-->
+        <div class="w-100 flex-col flex items-center justify-around scroll-px-20-py-10 gap-4">
+
+            <div class="flex flex-col items-center text-center gap-8 ">  <!--hero-->
+                <h1 class="font-bold text-xl">Organisez vos prompts IA <br>
+                    rapidement,et efficacement. 
+                </h1>    
+                <p class="font-medium text-22px md:block">une application simple, pour gerer et retrouver faciement vos prompts IA
+                </p>
+                <button class=" bg-blue-500 text-white rounded">Essayer primeprompts</button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 w-full gap-4 rounded-md "> 
+                <!--feature-->
+                <div class="flex rounded bg-red-500 flex-col gap-6">
+                    <img src="/assets/img/icones/icone1.svg" alt="icone1" class="w-5 h-5">
+                    <h1 class="font-bold">
+                        Ajout de Prompts 
+                    </h1>
+                    <p class="md:block">Ajoutez des nouveaux prompts a votre
+                        colection en quelsque clics
+                    </p>
+
+                </div>
+                <div class="flex rounded flex-col bg-yellow-300 gap-6">
+                    <img src="/assets/img/icones/icone2.svg" alt="" class="w-5 h-5">
+                    <h1 class="font-bold">Classer par categorie</h1>
+                    <p class="md:block">
+                        Organiser les prompts en plusieurs  categories pour faciliter
+                    </p>
+
+                </div>
+                <div class="flex rounded flex-col bg-green-500 gap-6">
+                    <img src="/assets/img/icones/icone3.svg" alt="" class="w-5 h-5">
+                    <h1 class="font-bold">
+                        Gerer les prompts
+
+                    </h1>
+                    <p class="md:block">Rechercher les prompts specifiques, 
+                        modifiez et supprimez
+                    </p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </main>
+
+    <footer class="w-full h-auto ">
+        <div class="w-full flex justify-between gap-10 bg-black md:flex flex-col">
+            <div class="flex items-center text-white gap-6 ">
+                <h3>@2024 Pimeprompts.Labs</h3>
+                <h3>Mentions legales</h3>
+                <h3>Politique de confidentialite</h3>
+            </div>
+            <div class="flex flex-col text-white">
+                <div class=" flex items-center">
+                    <img src="/assets/img/logo.svg" alt="">
+                    <h3 class="font-bold">Primepromts</h3>
+                </div>
+                <div class="flex items-center gap-6">
+                    <img src="/assets/img/socials/fbk.svg" alt=""><a href="www.facebook.com">facebook</a>
+                    <img src="/assets/img/socials/insta.svg" alt=""><a href="www.intagram.com">instagram</a>
+                    <img src="/assets/img/socials/xtwiter.svg" alt=""><a href="www.twiter.com">twiter</a>
+                    <img src="/assets/img/socials/youtube.svg" alt=""><a href="www.youtube.com">youtube</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
